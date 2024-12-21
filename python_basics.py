@@ -20,8 +20,6 @@
 # string_var = "First string test"
 # print(string_var)
 
-# slicing
-variable = [1,20,3]
-print(variable)
+
 
 
