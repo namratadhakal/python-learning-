@@ -31,10 +31,25 @@
 #     total = total + i
 # print(total)
 
+#4.
+# exp = [2309, 3421, 4567]
+# total = 0
+# for i in range(len(exp)):
+#     print('Month:',(i+1), 'Expense:',exp[i])
+#     total = total+exp[i]
+#     print(total)
 
-var2 = [2,1,3,4,5,6]
-sum = 0
-for i in range(var2):
-    sum =sum + i
-print(sum)
+# searching lost key in home and when found stop searching
+
+My_key = "bag"
+locations = ["chair", "Table", "Bed", "locker","bag","under_pillow"]
+for i in locations:
+    if i == My_key:
+        print("key found in:",i)
+        break
+    else:
+        print("Key is not found in :",i)
+
+
+
 
