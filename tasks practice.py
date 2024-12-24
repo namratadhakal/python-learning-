@@ -39,16 +39,19 @@
 #     total = total+exp[i]
 #     print(total)
 
-# searching lost key in home and when found stop searching
+#  5. searching lost key in home and when found stop searching
 
-My_key = "bag"
-locations = ["chair", "Table", "Bed", "locker","bag","under_pillow"]
-for i in locations:
-    if i == My_key:
-        print("key found in:",i)
-        break
-    else:
-        print("Key is not found in :",i)
+# My_key = "bag"
+# locations = ["chair", "Table", "Bed", "locker","bag","under_pillow"]
+# for i in locations:
+#     if i == My_key:
+#         print("key found in:",i)
+#         break
+#     else:
+#         print("Key is not found in :",i)
+#
+
+
 
 
 
